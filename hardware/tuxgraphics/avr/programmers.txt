@@ -1,0 +1,8 @@
+tuxgraphics.name=Tux Graphics
+tuxgraphics.communication=serial
+tuxgraphics.protocol=stk500v2
+tuxgraphics.speed=115200
+tuxgraphics.program.protocol=stk500v2
+tuxgraphics.program.tool=avrdude
+tuxgraphics.program.speed=115200
+tuxgraphics.program.extra_params=-P{serial.port} -b{program.speed} -c{program.protocol}
